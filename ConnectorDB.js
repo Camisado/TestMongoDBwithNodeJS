@@ -15,5 +15,4 @@ MongoClient.connect(url, function(err, db) {
         console.log(docs)
         db.close();
     });
-
 });
